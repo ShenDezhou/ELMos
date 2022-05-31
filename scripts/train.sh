@@ -1,0 +1,1 @@
+python -m elmoformanylangs.biLM train --train_path data_processed/product_comment_processed.txt --config_path elmoformanylangs/configs/cnn_comment_model.json --model output/cn --optimizer adam --lr 0.001 --lr_decay 0.8 --max_epoch 10 --max_sent_len 20 --max_vocab_size 150000 --min_count 1
